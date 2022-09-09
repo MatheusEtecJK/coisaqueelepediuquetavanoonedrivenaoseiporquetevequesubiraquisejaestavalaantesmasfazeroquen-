@@ -1,0 +1,6 @@
+podemos mesclar funções com formularios
+
+-------------------------------------------------
+a função header em php direciona pra outro local 
+
+função isset serve para saber se uma variavel existe ou nao

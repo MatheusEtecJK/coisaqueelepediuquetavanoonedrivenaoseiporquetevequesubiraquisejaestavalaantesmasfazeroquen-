@@ -1,0 +1,71 @@
+É possivel trocar o valor da variavel e mesmo assim exibir o valor antigo e o novo:
+$valor = 10;
+echo $valor;
+$valor = "oi";
+echo $valor;
+
+o resultado sera: 
+
+10oi
+
+------------------------------------------------------------------------------------
+Para concatenar as strings utlizamos o "."
+
+$oi = "oi";
+echo "joao".$oi;
+
+resultado:
+
+joaooi
+
+------------------------------------------------------------------------------------
+Usamos "//" para fazer um comentario de uma linha e "/* */" para comentarios maiores
+
+------------------------------------------------------------------------------------
+Comandos de decisão e repetição são os mesmo.
+
+= é atribuição de valor
+
+== igualdade
+
+se criamos loopings infinitos ou caso o scrpit demore muito pra responder o servidor 
+apache para o script
+
+ switch ($variable) {
+        case 'value':
+            # code...
+            break;
+        
+        default:
+            # code...
+            break;
+    }
+
+------------------------------------------------------------------------------------
+
+
+
+
+FORMULARIOS
+
+usamos a tag form para criar o formulario em html
+
+<form action="acao.php" method="get">
+        <label for="">Nome</label>
+        <input type="text" name="nome">
+        <label for="">Senha</label>
+        <input type="password" name="Senha">
+    </form>
+
+action é o lugar q vai os dados do formulario 
+method get as variaveis são exibidas na url, já o post as variaveis n aparecem na URL
+input é o tipo de caixa q irá aparecer e é necessario um name
+
+------------------------------------------------------------------------------------
+
+em PHP o indice dos vetores pode ser nomeaveis e n somente numerados, como por exemplo
+
+$nome["Nome"] = "Matheus";
+$nome["Sobrenome"] = "Mariano";
+
+O "Nome" e "Sobrenome" substituindo 0 e 1 

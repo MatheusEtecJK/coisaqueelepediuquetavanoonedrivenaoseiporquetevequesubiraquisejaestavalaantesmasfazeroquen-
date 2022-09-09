@@ -1,0 +1,7 @@
+o comando "include" inclui o conteudo de um arquivo em outro, colocando na ordem 
+
+include 'arquivo';
+
+---------------------------------------------------------------------------------
+
+existem varios tipos de inputs que podemos colocar nos forms

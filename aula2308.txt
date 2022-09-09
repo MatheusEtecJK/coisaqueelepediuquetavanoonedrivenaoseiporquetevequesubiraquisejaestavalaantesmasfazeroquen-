@@ -1,0 +1,10 @@
+Funções
+
+podemos criar funções em php da seguinte maneira
+
+function nome($parametros){
+return valor
+}
+
+podemos ter funções com variações diferente sendo elas:
+com retorno, sem retorno, com parametro e sem parametro

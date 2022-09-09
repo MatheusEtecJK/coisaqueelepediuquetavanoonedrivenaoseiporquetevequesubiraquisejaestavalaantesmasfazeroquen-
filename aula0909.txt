@@ -1,0 +1,19 @@
+usamos vetores quando iremos trabalhar com conjunto grande de valores existe uma diferença no php em relação aos vetores, devido ao fato de n ser de tipagem forte, podemos colocar diversos valores dentro de um vetor.podemos ter indices nomeados no php
+os vetores em php não tem um tamanho fixo, eles podem aumentar a qualquer hora 
+que precisarmos 
+----------------------------------------------------------------------------------------------------------------------
+
+var_dump = serve para verificar o conteudo de uma variavel.
+com o <pre> exibimos o texto da mesma maneira que escrevemos no codigo.
+
+----------------------------------------------------------------------------------------------------------------------
+
+podemos criar arrays dentro de outras arrays, para isso declaramos o indice e em seguida criamos a outra array
+
+para podermos acessar uma array dentro de outra array fazemos da seguinte maneira echo $array['primeiroindicde'][''segundo];
+
+podemos declarar o indice e o conteudo de uma array usando  o "=>" array('DES' => 'jefferson');
+
+----------------------------------------------------------------------------------------------------------------------
+com o foreach podemos exibir arrays que os indices sejam strings, com a função unset() tiramos o conteudo de um indice e podemos adicionar outro.
+
