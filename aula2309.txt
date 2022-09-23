@@ -1,0 +1,16 @@
+quando vamos criar uma classe, devemos sempre começar ela com letra maiuscula.
+
+para criar uma classe usamos class nomeclasse{}, em seguida devemos atribuir os atributos e os metodos.
+
+quando formoa atribuir os atributos usamos o "public".
+
+para fazer os metodos usamos "public function nomemetodo(){}".
+
+para incluir uma classe em nosso arquivo php, usamos o "require_once".
+
+usamos $variavel = new nomeclasse(); para atribuir ela a nosso codigo.
+
+com o $oi->=nome "ababababa"; damos valor a varivel da classe.
+
+usamos o "$this->" para indicar ao php que estamos usando a variavel da classe
+
